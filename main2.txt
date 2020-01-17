@@ -1,0 +1,11 @@
+#include "tstring.h"
+#include <iostream>
+using namespace std;
+int main (){
+    TString s1;
+}
+class TString {
+    private:
+    char* ptr = nullptr;
+    std::size_t len = 0;
+}
